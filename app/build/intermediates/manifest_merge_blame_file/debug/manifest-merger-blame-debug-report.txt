@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.Mad_Practical_7_21012012029"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:5:22-76
+12
+13    <application
+13-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:6:5-41:19
+14        android:allowBackup="true"
+14-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\DELL\.gradle\caches\transforms-3\319818de8066db9dee1015fa48896948\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:8:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:9:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Mad_Practical_7_21012012029" >
+24-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:14:9-65
+25        <service
+25-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:16:9-19:38
+26            android:name="com.example.Mad_Practical_7_21012012029.AlarmService"
+26-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:17:13-41
+27            android:enabled="true"
+27-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:18:13-35
+28            android:exported="true" />
+28-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:19:13-36
+29
+30        <receiver
+30-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:21:9-30:20
+31            android:name="com.example.Mad_Practical_7_21012012029.AlarmBroadcastReceiver"
+31-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:22:13-51
+32            android:directBootAware="true"
+32-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:23:13-43
+33            android:enabled="true"
+33-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:24:13-35
+34            android:exported="true" >
+34-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:25:13-36
+35            <intent-filter>
+35-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:26:13-29:29
+36                <action android:name="android.intent.action.BOOT_COMPLETED" />
+36-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:27:17-78
+36-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:27:25-76
+37                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+37-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:28:17-85
+37-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:28:25-83
+38            </intent-filter>
+39        </receiver>
+40
+41        <activity
+41-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:32:9-40:20
+42            android:name="com.example.Mad_Practical_7_21012012029.MainActivity"
+42-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:33:13-41
+43            android:exported="true" >
+43-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:34:13-36
+44            <intent-filter>
+44-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:35:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:36:17-69
+45-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:38:17-77
+47-->C:\Users\DELL\OneDrive\Desktop\Mad_exe\MADPractical7_21012022022\app\src\main\AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.example.Mad_Practical_7_21012012029.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a12ed9220754cce2dddf3ed6d58bf3a3\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
